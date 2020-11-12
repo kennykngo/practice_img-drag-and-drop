@@ -1,8 +1,21 @@
 .drop-zone {
-  max-width: 200px;
-  height: 200px;
+  max-width: 300px;
+  height: 300px;
   padding: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  font-family: "arial", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+
+/* added when javascript needs it */
+.drop-zone--over {
+  border-style: solid;
 }
